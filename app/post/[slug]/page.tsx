@@ -11,6 +11,8 @@ async function getData(slug: string){
     return data;
 }
 
+export const revalidate = 60
+
 export default async function SlugPage({params} : {params: {slug: string}}){
     const data = await getData(params.slug) as Post;
 
