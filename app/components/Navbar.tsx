@@ -8,7 +8,7 @@ export default function Navbar(){
                 <div className="flex justofy-between items-center w-full">
                     <Link href="/">
                         <h1 className="text-3xl font-medium">
-                            Blade<span className="text-teal-500">Blog</span>
+                            Blade<span className="text-orange-600">Blog</span>
                         </h1>
                     </Link>
                     <Link href="https://www.bladeaxe.com" className="p-10">
