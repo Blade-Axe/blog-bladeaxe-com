@@ -1,11 +1,11 @@
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
+import { Gabarito } from 'next/font/google'
 import './globals.css'
 import Navbar from './components/Navbar'
 import { Providers } from './components/Providers'
 
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Gabarito({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'BladeAxe Official Blog',
